@@ -1,0 +1,75 @@
+li {
+  list-style: none;
+}
+
+
+li.status{
+  display: inline-block;
+}
+#header{
+  position: absolute;
+  right: 10%;
+  top: 5%
+}
+h1 {
+  text-align: center;
+  margin-top: 15%;
+}
+
+#take-quiz{
+  display: block;
+  margin: auto;
+
+}
+
+.question-page{
+  border: 2px black solid;
+
+}
+.question{
+  margin: auto;
+  width: 500px;
+  margin-bottom: 10px;
+  border: 2px solid black;
+
+}
+.answer{
+  margin: auto;
+  width: 400px;
+  border: 2px solid black;
+  margin-bottom: 5px;
+}
+
+.answer-page{
+  border: 2px solid black;
+}
+.right-or-wrong{
+  margin: auto;
+  width: 300px;
+  height: 100px;
+  border: 1px solid black;
+  margin-bottom: 5px;
+}
+.next-question{
+  margin: auto;
+  width: 300px;
+  height: 50px;
+  border: 1px solid black;
+
+}
+
+.result-page{
+  border: 2px solid black;
+}
+
+.result-page p{
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 50px;
+  border: 1px solid black;
+}
+#take-again {
+  display: block;
+  margin: auto;
+}
