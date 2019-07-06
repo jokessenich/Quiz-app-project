@@ -1,5 +1,9 @@
 li {
   list-style: none;
+
+
+  margin:auto;
+  text-align:center;
 }
 
 
@@ -29,13 +33,15 @@ h1 {
 .question{
   margin: auto;
   width: 500px;
-  margin-bottom: 10px;
+  height: 50px;
+  margin-bottom: 20px;
   border: 2px solid black;
 
 }
 .answer{
   margin: auto;
   width: 400px;
+  height: 50px;
   border: 2px solid black;
   margin-bottom: 5px;
 }
@@ -51,7 +57,8 @@ h1 {
   margin-bottom: 5px;
 }
 .next-question{
-  margin: auto;
+  margin-left:auto;
+  margin-right: auto;
   width: 300px;
   height: 50px;
   border: 1px solid black;
@@ -63,13 +70,16 @@ h1 {
 }
 
 .result-page p{
-  margin-left: auto;
-  margin-right: auto;
+  text-align:center;
+  margin: auto;
+  margin-top: 50px;
   width: 300px;
   height: 50px;
   border: 1px solid black;
+  margin-bottom:50px;
 }
 #take-again {
   display: block;
   margin: auto;
+  margin-bottom: 50px;
 }
