@@ -2,43 +2,42 @@
 <html lang= "en">
   <head>
     <meta charset="utf-8">
-    <meta name="A Beach Volleyball Quiz to Test Your Knowledge" content="width=device-width">
-    <title>Beach Volleyball Quiz|Test Your Knowledge</title>
+    <meta name="A Seinfeld Quiz to Test Your Knowledge About Kramer, George, Jerry and Elaine." content="width=device-width">
+    <title>Seinfeld Quiz|Test Your Knowledge</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=DM+Serif+Display|Montserrat&display=swap" rel="stylesheet">
   </head>
   <body>
+    <div class= "div1"></div>
+    <div class = "div2">
     <header>
       <ul id = "header">
-        <li class="status">volleyball logo</li>
-        <li class="status">Question: <span class = "question-num"></span></li>
-        <li class="status">Score: <span class = "currentscore"></span></li>
+        <li class="status logo"><img src="https://cdn.freebiesupply.com/logos/large/2x/seinfeld-logo-png-transparent.png" alt = "Seinfeld Logo" height=80px width=100px></li>
+        <li class="status tally">Question: <span class = "question-num"></span></li>
+        <li class="status tally">Score: <span class = "currentscore"></span></li>
     </header>
-    <section id = "start-page">  
-      <h1>How Well Do You Know Beach Volleyball?</h1>
-      <button id="take-quiz">
-        <h2>Take the QUIZ</h2>
-      </button>
-    </section>
-    <section class = "question-page">
-      <ul>
-        <li class = "question">This is the question</li>
-        <li class = "first answer">First Answer</li>
-        <li class = "second answer">Second Answer</li>
-        <li class = "third answer">Third Answer</li>
-        <li class = "fourth answer">Fourth Answer</li>
-      </ul>
-    </section>
-    <section class = "answer-page">
-      <ul>
-        <li class = "right-or-wrong">You got it right</li>
-        <li class = "next-question">Click for next question</li>
-      </ul>
-    </section>
-    <section class = "result-page">
-      <p>Your score was</p>
-      <button id = "take-again">Take the test again?!</button>
-    </section>
-  
-    <script src="script.js"></script>
+    
+    <main>
+      <section class = "start-page">  
+        <h1>Test your <br>knowledge of<br><img src="https://cdn.freebiesupply.com/logos/large/2x/seinfeld-logo-png-transparent.png" alt = "Seinfeld Logo" height=240px width=300px><br></h1>
+        <button id="take-quiz">
+          <h2>Take the QUIZ</h2>
+        </button>
+      </section>
+
+      <form class = "question-page">
+      </form>
+
+      <section class = "answer-page">
+      </section>
+
+      <section class = "result-page">
+      </section>
+
+      <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cuid/1.3.8/browser-cuid.min.js"></script>
+      <script src="//code.jquery.com/jquery.min.js"></script>
+      <script src="script.js"></script>
+    </main>
+    <div>
   </body>
 </html>
